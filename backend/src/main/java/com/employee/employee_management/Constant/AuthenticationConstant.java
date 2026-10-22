@@ -2,6 +2,9 @@ package com.employee.employee_management.Constant;
 
 public final class AuthenticationConstant {
 
+    private AuthenticationConstant () {
+        
+    }
     public static final String AUTHENTICATION = "/api/auth";
     public static final String AUTHENTICATION_LOGINS = "/api/login";
     public static final String AUTHENTICATION_LOGOUT = "/api/logout";
