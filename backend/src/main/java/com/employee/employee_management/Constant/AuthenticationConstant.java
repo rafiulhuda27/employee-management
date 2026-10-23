@@ -34,6 +34,9 @@ public final class AuthenticationConstant {
     public static final String INVALID_USER_NOT_FOUND_ERROR_CODE = "401";
     public static final String INVALID_USER_NOT_FOUND_ERROR_DESC = "Account is not active";
 
+    public static final String INVALID_USER_STATUS_ERROR_CODE = "403";
+    public static final String INVALID_USER_STATUS_ERROR_DESC = "Account is not active";
+
     public static final String SUCCESS_LOGIN_CODE = "200";
     public static final String SUCCESS_LOGIN_MESSAGE = "Login successful.";
 
